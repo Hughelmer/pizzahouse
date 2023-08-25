@@ -10,7 +10,9 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
-        <link rel="stylesheet" href="@vite('resources/sass/main.scss')">
+        <!-- <link rel="stylesheet" href="@vite('resources/sass/main.scss')"> -->
+
+        @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
 
     </head>
