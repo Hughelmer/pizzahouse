@@ -1,5 +1,8 @@
 @extends('layouts.layout')
 
+@vite(['resources/sass/app.scss',
+        'resources/sass/main.scss',
+        'resources/js/app.js'])
 @section('content')
 <div class="flex-center position-ref full-height">
     <div class="content">
